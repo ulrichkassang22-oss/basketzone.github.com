@@ -1,0 +1,211 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+header{
+    background-image: url(image/basket2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+header h2{
+    color: white;
+     font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-family: "Fjalla One", sans-serif;
+}
+nav{
+    background-color: #c0392b;
+    padding: 12px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h1{
+    color: white;
+    font-size: 24px;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: bold;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+nav ul li a:hover{
+    background-color: #e74c3c;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+main{
+    background-color:#f2eae9;
+}
+.container{
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow:  0 4px 8px #07338c;
+}
+.container h1{
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #c0392b;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: bold;
+}
+.container p{
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 20px;
+}
+.container h2{
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #c0392b;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: bold;
+}
+.container img{
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.container-histoires img{
+    border-radius: 20px;
+    max-width: 100%;
+    height: auto;
+     margin: 20px;
+}
+.container-regles img{
+    border-radius: 40%;
+    max-width: 90%;
+    height: auto;
+    margin: 10px;
+}
+.container-regles h2{
+    font-size: 18px;
+    line-height: 1.6;
+    color: red;
+    margin-bottom: 20px;
+    weight:bold;
+    text-shadow: #07338c;
+}
+.container-histoires{
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow:  0 4px 8px #07338c;
+}
+
+.container-equip img{
+    border-radius: 10%;
+
+}
+.site-footer {
+  background: #c0392b;
+  color: #ddd;
+  padding: 35px 20px 20px;
+  margin-top: 60px;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+  border: 0 10px 10px rgba(196, 30, 58, 0.5);
+}
+
+.footer-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.site-footer h4 {
+  margin: 0 0 20px;
+  font-size: 1.4rem;
+  color: black;
+  font-family:  "Pirata One", system-ui, sans-serif;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.contact-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 24px;
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(35, 34, 34, 0.12);
+  border-radius: 999px;
+  color: black;
+  width: bold;
+  font-family: "Pirata One", system-ui, sans-serif;
+  text-decoration: none;
+  font-size: 1.05rem;
+  transition: all 0.2s ease;
+}
+
+.contact-link:hover {
+  background: rgba(255, 255, 255, 0.12);
+  transform: translateY(-2px);
+}
+
+.contact-icon {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+
+.contact-link.whatsapp {
+  color: black;
+  font-weight: 600;
+  font-family: "Pirata One", system-ui, sans-serif;
+}
+
+.contact-link.whatsapp .contact-icon {
+  border-radius: 50%;         
+}
+
+.copyright {
+  margin: 25px 0 0;
+  font-size: 0.9rem;
+  color: black;
+  font-family: "Pirata One", system-ui, sans-serif;
+}
+
+@media (max-width: 500px) {
+  .contact-link {
+    padding: 10px 20px;
+    font-size: 0.98rem;
+  }
+  
+  .contact-icon {
+    width: 26px;
+    height: 26px;
+  }
+}
+
+
